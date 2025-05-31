@@ -1,12 +1,11 @@
-filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.hpp"]
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.hpp", "math.hpp", "hpp.hpp"]
 # Generate new_filenames as a list containing the new filenames
-# using as many lines of code as your chosen method requires.
 
 
-new_filenames = []
-for filename in filenames:
-    if filename.endswith("hpp"):
-        filename.replace("hpp","hp")
+new_filenames = [ ]
+for filename in filenames :
+    if filename.endswith("hpp") :
+        filename.replace(" hpp "," out ")
     else:
         new_filenames.extend(filenames)
         break
