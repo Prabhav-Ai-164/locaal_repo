@@ -1,10 +1,11 @@
 
+
 class prg 
 { 
-    public static void main(String[] args) 
+    void enter (int a , int b , int c )
 {
-    int d = a > b ? a : b ; 
-    int e = c > d ? c : d ;
-    System.out.println("the greater number in this three "+ e ); 
-}
+    int e = a > b ? a : b ; 
+    int f = c > e ? c : e ;
+    System.out.println("the greater number in this four number is  "+ f ); 
+} 
 }  
